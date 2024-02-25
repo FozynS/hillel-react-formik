@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FozynS/hillel-react-formik/static/css/main.b19ef547.css",
-    "main.js": "/FozynS/hillel-react-formik/static/js/main.ece4191e.js",
-    "static/media/back.png": "/FozynS/hillel-react-formik/static/media/back.42f984ee50bd5d68017f.png",
-    "index.html": "/FozynS/hillel-react-formik/index.html",
-    "main.b19ef547.css.map": "/FozynS/hillel-react-formik/static/css/main.b19ef547.css.map",
-    "main.ece4191e.js.map": "/FozynS/hillel-react-formik/static/js/main.ece4191e.js.map"
+    "main.css": "/hillel-react-formik/static/css/main.d925e405.css",
+    "main.js": "/hillel-react-formik/static/js/main.40de0093.js",
+    "static/media/back.png": "/hillel-react-formik/static/media/back.42f984ee50bd5d68017f.png",
+    "index.html": "/hillel-react-formik/index.html",
+    "main.d925e405.css.map": "/hillel-react-formik/static/css/main.d925e405.css.map",
+    "main.40de0093.js.map": "/hillel-react-formik/static/js/main.40de0093.js.map"
   },
   "entrypoints": [
-    "static/css/main.b19ef547.css",
-    "static/js/main.ece4191e.js"
+    "static/css/main.d925e405.css",
+    "static/js/main.40de0093.js"
   ]
 }
