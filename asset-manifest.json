@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hillel-react-formik/static/css/main.d925e405.css",
-    "main.js": "/hillel-react-formik/static/js/main.40de0093.js",
+    "main.js": "/hillel-react-formik/static/js/main.cd10f145.js",
     "static/media/back.png": "/hillel-react-formik/static/media/back.42f984ee50bd5d68017f.png",
     "index.html": "/hillel-react-formik/index.html",
     "main.d925e405.css.map": "/hillel-react-formik/static/css/main.d925e405.css.map",
-    "main.40de0093.js.map": "/hillel-react-formik/static/js/main.40de0093.js.map"
+    "main.cd10f145.js.map": "/hillel-react-formik/static/js/main.cd10f145.js.map"
   },
   "entrypoints": [
     "static/css/main.d925e405.css",
-    "static/js/main.40de0093.js"
+    "static/js/main.cd10f145.js"
   ]
 }
