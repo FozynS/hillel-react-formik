@@ -1,4 +1,4 @@
-import {  Form, Field, ErrorMessage } from 'formik';
+import { Form, Field, ErrorMessage } from "formik";
 import styled from "styled-components";
 
 const Label = styled.label`
@@ -21,6 +21,19 @@ const AddBtn = styled.button`
   }
 `;
 
+const StyledInput = styled.input`
+  margin-top: 10px;
+  height: 20px;
+  width: 60%;
+  background-color: #fde6cd;
+  border-radius: 10px;
+  border: 1px solid #c7939c;
+`;
+
+const StyledError = styled.div`
+  color: #a11a46;
+`;
+
 function FormMyOwn() {
   return (
     <Form>
@@ -28,24 +41,10 @@ function FormMyOwn() {
         <Label>
           Name:
           <br />
-          <Field
-            type="text"
-            name="name"
-            placeholder="Name"
-            style={{
-              marginTop: "10px",
-              height: "20px",
-              width: "60%",
-              backgroundColor: "#fde6cd",
-              borderRadius: "10px",
-              border: "1px solid #c7939c",
-            }}
-          />
-          <ErrorMessage 
-            name="name"
-            component='div'
-            style={{color: '#a11a46'}}
-          />
+          <Field as={StyledInput} type="text" name="name" placeholder="Name" />
+          <StyledError>
+            <ErrorMessage name="name" component="span" />
+          </StyledError>
         </Label>
       </div>
       <br />
@@ -54,23 +53,14 @@ function FormMyOwn() {
           Email:
           <br />
           <Field
+            as={StyledInput}
             type="text"
             name="email"
             placeholder="Email"
-            style={{
-              marginTop: "10px",
-              height: "20px",
-              width: "60%",
-              backgroundColor: "#fde6cd",
-              borderRadius: "10px",
-              border: "1px solid #c7939c",
-            }}
           />
-          <ErrorMessage 
-            name="email" 
-            component='div'
-            style={{color: '#a11a46'}}
-          />
+          <StyledError>
+            <ErrorMessage name="email" component="span" />
+          </StyledError>
         </Label>
       </div>
       <br />
@@ -79,28 +69,19 @@ function FormMyOwn() {
           Phone:
           <br />
           <Field
+            as={StyledInput}
             type="text"
             name="phone"
             placeholder="Phone Number"
-            style={{
-              marginTop: "10px",
-              height: "20px",
-              width: "60%",
-              backgroundColor: "#fde6cd",
-              borderRadius: "10px",
-              border: "1px solid #c7939c",
-            }}
           />
-          <ErrorMessage 
-            name="phone" 
-            component='div'
-            style={{color: '#a11a46'}}
-          />
+          <StyledError>
+            <ErrorMessage name="phone" component="span" />
+          </StyledError>
         </Label>
       </div>
-    <AddBtn>Add</AddBtn>
-    </Form>  
-  )
+      <AddBtn>Add</AddBtn>
+    </Form>
+  );
 }
 
 export default FormMyOwn;
